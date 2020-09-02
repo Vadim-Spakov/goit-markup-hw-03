@@ -71,7 +71,7 @@ a {
   display: flex;
   align-items: center;
   margin-left: auto;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 /* Logo */
@@ -116,7 +116,7 @@ a {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  color: var(--accent-color);
+  color: var(--title-text-color);
 
   font-family: Roboto;
   font-style: normal;
@@ -141,7 +141,7 @@ a {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--title-text-color);
+  color: var(--accent-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -338,8 +338,8 @@ a {
 .basement {
   color: var(--accent-color);
   background-color: #2f303a;
-  height: 252px;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /*.basement {
@@ -399,13 +399,16 @@ a {
   margin-right: 8px;
 }
 
+/*.buttons-form2:hover {
+  color: #2196f3;*/
+
 .buttons-form1 {
   position: center;
   width: 73px;
   height: 38px;
   left: 495px;
   top: 174px;
-  background: #2196f3;
+  background: #f5f4fa;
   border: none;
   border-radius: 4px;
   font-family: Roboto;
@@ -413,7 +416,12 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  color: var(--title-text-color);
+}
+
+.buttons-form1:hover {
   color: var(--hero-title);
+  background: var(--accent-color);
 }
 
 .buttons-form2 {
@@ -433,6 +441,11 @@ a {
   color: var(--title-text-color);
 }
 
+.buttons-form2:hover {
+  color: var(--hero-title);
+  background: var(--accent-color);
+}
+
 .buttons-form3 {
   position: center;
   width: 145px;
@@ -448,6 +461,11 @@ a {
   font-size: 16px;
   line-height: 26px;
   color: var(--title-text-color);
+}
+
+.buttons-form3:hover {
+  color: var(--hero-title);
+  background: var(--accent-color);
 }
 
 .buttons-form4 {
@@ -467,6 +485,11 @@ a {
   color: var(--title-text-color);
 }
 
+.buttons-form4:hover {
+  color: var(--hero-title);
+  background: var(--accent-color);
+}
+
 .buttons-form5 {
   position: center;
   width: 130px;
@@ -482,6 +505,11 @@ a {
   font-size: 16px;
   line-height: 26px;
   color: var(--title-text-color);
+}
+
+.buttons-form5:hover {
+  color: var(--hero-title);
+  background: var(--accent-color);
 }
 
 .buttons-title:nth-child(5n) {
